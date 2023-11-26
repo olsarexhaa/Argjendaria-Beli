@@ -1,0 +1,299 @@
+header{
+    background-color: azure;
+}
+
+.button1{
+    justify-content: baseline;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    cursor:grab;
+    background: fixed;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.button1:hover{
+    background: rgb(228,199,129);
+}
+.button1:active{
+    background: rgb(9,75,67);
+}
+.icon{
+    font-size: 35px;
+}
+.fjala1{
+    display: inline center;
+    font-size: 50px;
+     text-align: center;
+     font-style: "Zyada " ;
+     font-family: Georgia, 'Times New Roman', Times, serifs;
+     color: rgb(9,75,67);
+     padding-right:25px ;
+}
+.fjala2{
+    display: inline center;
+    font-size: 50px;
+    text-align: center;
+    font-style: obliques;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228,199,129);
+    padding-right: 25px;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    font-style: oblique;
+    color: rgb(9,75,67);
+
+}
+body{
+    background-color: azure;
+}
+li{
+    display: inline;
+    list-style: none;
+    font-size: 25px;
+}
+.main{
+    position: relative;
+}
+ 
+.foto1{
+    display: block; 
+    width: 100%;
+    height: 900px;
+}
+.foto1_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  rgba(9, 75, 67, 0.5  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    
+}
+.foto1_overlay:hover{
+    opacity: 1;
+}
+.butoni2{
+    font-size: 30px;
+    background-color:rgb(228,199,129);
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+    cursor: grab;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+      
+}
+.bodyifaqes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foto2{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+        size: 500px;
+
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto2 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto2 button:hover {
+        opacity: 0.7;
+      }
+      .foto3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto3 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto3 button:hover {
+        opacity: 0.7;
+      }
+      .foto4 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto4 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto4 button:hover {
+        opacity: 0.7;
+      }
+      .foto5 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto5 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto5 button:hover {
+        opacity: 0.7;
+      }
+      .foto6 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto6 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto7 button:hover {
+        opacity: 0.7;
+      }
+      .foto7 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto7 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto7 button:hover {
+        opacity: 0.7;
+      }
+
+      footer{
+        background-color:rgba(9, 75, 67, 0.447);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+
+
