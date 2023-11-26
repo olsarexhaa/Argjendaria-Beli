@@ -38,7 +38,7 @@ header{
     text-align: center;
     font-style: obliques;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(228,199,129);
+    color: rgba(228, 198, 129, 0.74);
     padding-right: 25px;
 
 }
