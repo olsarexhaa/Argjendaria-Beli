@@ -104,7 +104,7 @@ li{
 }
 
 .foto2{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgb(9,75,67);
         max-width: 400px;
         margin: auto;
         text-align: center;
@@ -116,7 +116,7 @@ li{
       }
       
       .price {
-        color: grey;
+        color:black(000);
         font-size: 22px;
       }
       
@@ -125,7 +125,7 @@ li{
         outline: 0;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color: rgb(9,75,67);;
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -136,7 +136,7 @@ li{
         opacity: 0.7;
       }
       .foto3 {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgb(9,75,67);
         max-width: 400px;
         margin: auto;
         text-align: center;
@@ -154,7 +154,7 @@ li{
         outline: 0;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color: rgb(9,75,67);
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -165,7 +165,7 @@ li{
         opacity: 0.7;
       }
       .foto4 {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgb(9,75,67);;
         max-width: 400px;
         margin: auto;
         text-align: center;
@@ -184,7 +184,7 @@ li{
         outline: 0;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color: rgb(9,75,67);
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -195,7 +195,7 @@ li{
         opacity: 0.7;
       }
       .foto5 {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgb(9,75,67);
         max-width: 400px;
         margin: auto;
         text-align: center;
@@ -213,7 +213,7 @@ li{
         outline: 0;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color: rgb(9,75,67);
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -224,7 +224,7 @@ li{
         opacity: 0.7;
       }
       .foto6 {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgb(9,75,67); 
         max-width: 400px;
         margin: auto;
         text-align: center;
@@ -243,7 +243,7 @@ li{
         outline: 0;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color: rgb(9,75,67);
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -254,7 +254,7 @@ li{
         opacity: 0.7;
       }
       .foto7 {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgb(9,75,67);
         max-width: 400px;
         margin: auto;
         text-align: center;
@@ -274,7 +274,7 @@ li{
         outline: 0;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color:rgb(9,75,67);
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -284,16 +284,126 @@ li{
       .foto7 button:hover {
         opacity: 0.7;
       }
+   
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-      footer{
-        background-color:rgba(9, 75, 67, 0.447);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        font-size: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+	background-color: #151515;
+	padding: 80px 0;
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #E91E63;
+	width: 50px;
+	height: 2px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	color: black;
+	display: block;
+	font-size: 1rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: black;
+	padding-left: 7px;
+}
+
+.footer-col .social-links a {
+	color: black;
+	background-color:rgb(9,75,67); ;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	line-height: 40px;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #151515;
+	background-color:black;
+}
+
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+      
+        
+        
+          
+            
+          
+        
+      
 
 
 
