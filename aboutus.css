@@ -1,0 +1,143 @@
+a{
+    text-decoration: none;
+    color: rgb(9,75,67);
+  }
+  h2{
+    color: rgb(9,75,67);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 10px;
+  }
+  body{
+    display: block;
+  }
+  
+  .button1{
+      justify-content: flex-start;
+      border: none;
+      outline: none;
+      height: 50px;
+      width: 50px;
+      cursor:grab;
+      background: fixed;
+      border-radius: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  .button1:hover{
+      background: rgb(228,199,129);
+  }
+  .button1:active{
+      background: rgb(9,75,67);
+  }
+  .icon{
+      font-size: 35px;
+  }
+  
+  .loginform{
+      justify-content: flex-end;
+      border: none;
+      outline: none;
+      height: 50px;
+      width: 50px;
+      cursor:grab;
+      background: fixed;
+      border-radius: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+  
+  }
+  .loginform:hover{
+      background: rgb(228,199,129);
+  }
+  .loginform:active{
+      background: rgb(9,75,67);
+  }
+  .icon1{
+      font-size: 30px;
+  }
+  /*
+  .logo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }*/
+  .fjala1{
+    display: inline center;
+    font-size: 50px;
+    text-align: center;
+    font-style: "Zyada " ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9,75,67);
+    margin:0;
+}
+  .fjala2{
+    display: inline center;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    color: rgb(228,199,129);
+    margin:0;
+    margin-top: -20px;
+}
+  .header{
+    text-align: center;
+    color: rgb(9,75,67);
+    padding-right: 20px;
+    padding-top: 30px;
+    font-family: 'Ephesis', cursive;
+    font-weight: 300;
+    font-size: 60px;
+  }
+  .ourstory{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .ourstoryp{
+    font-size: 40px;
+    font-weight: 100;
+    color:rgb(9,75,67);
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+  }
+  .quality{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .qualityp{
+    font-size: 40px;
+    font-weight: 100;
+    color:rgb(9,75,67);
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+
+  }
+  .vision{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 900px;
+    height: 700px;
+    justify-content: center;
+    padding-left: 310px;
+  }
+
+  .visionp{
+    font-size: 40px;
+    font-weight: 100;
+    color:rgb(9,75,67);
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+
+  }

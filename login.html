@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    </head>
+    <header>
+        <link rel="stylesheet" href="login.css">
+        <title>Argjendaria Beli</title>
+        <div class="logos">
+            <button class="button1">
+                <span>
+                    <ion-icon name="cart-outline" class="icon"></ion-icon>
+                </span>
+            </button>
+            <button class="loginform">
+                <a href="baza.html">
+                    <span class="icon1">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                </a>
+            </button>
+        </div>
+    </header>
+    <body>
+        <div class="container">
+            <form class="form1" id="login">
+                <h1 class="formtitle">Log in</h1>
+                <div class="formmessageerror"></div>
+                <div class="formgroup">
+                    <input type="text" class="forminput" placeholder="Email">
+                    <div class="forminputerror"></div>
+                    <div class="formgroup">
+                        <input type="password" class="forminput" placeholder="Password">
+                        <div class="forminputerror"></div>
+                    </div>
+                    <button class="formbutton" type="submit">Continue</button>
+                    <p class="formtext">
+                        <a href="#" class="formlink">Forgot your password</a>
+                    </p>
+                    <p id="linkCreateAccount" class="formtext">
+                        <a class="formlink">Dont have an account? Creat account</a>
+                    </p>
+                </div>
+            </form>
+            <form class="form formhidden" id="createAccount">
+                <h1 class="formtitle">Create account</h1>
+                <div class="formmessageerror"></div>
+                <div class="formgroup">
+                    <input type="text" class="forminput" placeholder="Username">
+                    <div class="forminputerror"></div>
+                    <div class="formgroup">
+                        <input type="text" class="forminput" placeholder="Email Address">
+                        <div class="forminputerror"></div>
+                        <div class="formgroup">
+                            <input type="password" class="forminput " placeholder="Password">
+                            <div class="forminputerror"></div>
+                            <input type="password" class="forminput " placeholder="Confirm Password">
+                            <div class="forminputerror"></div>
+                        </div\>
+                        <button class="formbutton" type="submit">Continue</button>
+                        <p class="formtext">
+                            <a id="linkLogin" class="formlink">Alredy have an account? Log in</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script>
+        
+    </script>
+</html>

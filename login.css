@@ -1,0 +1,182 @@
+body{
+    background-attachment: fixed;
+    background-color:  white;
+    margin: 0;
+    display: flex;   
+}
+a{
+    text-decoration: none;
+    color: rgb(9,75,67);
+  }
+  
+
+.fjala1{
+    display: inline center;
+    font-size: 50px;
+    text-align: center;
+    font-style: "Zyada " ;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+    color: rgb(9,75,67);
+    padding-right:25px ;
+}
+.fjala2{
+    display: inline center;
+    font-size: 100px;
+    text-align: center;
+    font-style: obliques;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228,199,129);
+    padding-right: 25px;
+
+}
+
+
+.button1{
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    cursor:grab;
+    background: fixed;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.button1:hover{
+    background: rgb(228,199,129);
+}
+.button1:active{
+    background: rgb(9,75,67);
+}
+.icon{
+    font-size: 35px;
+}
+
+.loginform{
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    cursor:grab;
+    background: fixed;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+.loginform:hover{
+    background: rgb(228,199,129);
+}
+.loginform:active{
+    background: rgb(9,75,67);
+}
+
+.icon1{
+    font-size: 30px;
+}
+.container{
+    width: 400px;
+    max-width: 400px;
+    box-shadow: 0 0 40px rgba(0,0,0,0, 0.2);
+    border-radius: 30px;
+    padding: 50px;
+    border: 5px solid  rgba(9, 75, 67, 0.724);
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 270px;
+
+
+}
+
+
+.formtitle{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(9, 75, 67, 0.879);
+
+}
+.formhidden{
+    display: none;
+}
+.form > *:first-child{
+    margin-top: 0;
+
+}
+.form > *:last-child{
+    margin-top: 0;
+}
+.formmessage{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.formmessagesuccess{
+  color: aquamarine;
+}
+.formmessageerror{
+  color: red;
+}
+.formgroup{
+    margin-bottom: 1rem;
+    padding-top: 15px;
+
+}
+.forminput{
+   font-size: 25px;
+   margin-bottom: 10px;
+   border-radius: 15px;
+   height: 50px;
+   width: 100%;
+   justify-content: center;
+   border: 1px solid #dddd;    
+}
+.formbutton{
+    display: flex;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #dddd;
+    color: white;
+    background-color: rgba(9, 75, 67, 0.724);
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.formbutton:hover{
+    background: rgba(9, 75, 67, 0.386);
+}
+.formbutton:active{
+    transform: scale(0.98);
+}
+
+.forminputerror{
+    color: red;
+    border-color: red;
+
+}
+.formerrormessage{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.formtext{
+    text-align: center;
+}
+
+.formlink{
+    color: rgba(9, 75, 67);
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.formlink:hover{
+    text-decoration: underline;
+}

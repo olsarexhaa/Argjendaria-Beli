@@ -1,11 +1,11 @@
-header{
+/*header{
     background-color: azure;
 }
 
 .button1{
     justify-content: baseline;
     border: none;
-    outline: none;
+    outline: none;/
     height: 50px;
     width: 50px;
     cursor:grab;
@@ -395,7 +395,7 @@ ul {
 	.footer-col {
 		width: 100%;
 	}
-}
+}*/
       
         
         
@@ -404,6 +404,462 @@ ul {
           
         
       
+
+
+
+
+h2{
+  color: rgb(9,75,67);
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+body{
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: rgb(9,75,67);
+}
+
+.button1{
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    cursor:grab;
+    background: fixed;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgb(9,75,67);
+}
+.button1:hover{
+    background: rgb(228,199,129);
+}
+.button1:active{
+    background: rgb(9,75,67);
+}
+.icon{
+    font-size: 35px;
+}
+
+.loginform{
+    justify-content: flex-end;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    cursor:grab;
+    background: fixed;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.loginform:hover{
+    background: rgb(228,199,129);
+}
+.loginform:active{
+    background: rgb(9,75,67);
+}
+.icon1{
+    font-size: 30px;
+}
+
+/*.logo{
+  display: block;
+  justify-content: center;
+  align-items: center;*/
+
+.fjala1{
+    display: inline center;
+    font-size: 50px;
+    text-align: center;
+    font-style: "Zyada " ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9,75,67);
+    margin:0;
+}
+.fjala2{
+    display: inline center;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    color: rgb(228,199,129);
+    margin:0;
+    margin-top: -20px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    font-style: oblique;
+    color: rgb(9,75,67);
+    padding: 30px;
+
+}
+
+li{
+    display: inline;
+    list-style: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    position: relative;
+}
+ 
+.foto1{
+    display: block; 
+    width: 100%;
+    height: 900px;
+}
+.foto1_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(9, 75, 67, 0.5  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    
+}
+.foto1_overlay:hover{
+    opacity: 1;
+}
+.butoni2{
+    font-size: 30px;
+    background-color:rgb(228,199,129);
+    font-family: monospace;
+    cursor: grab;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      
+}
+.quote{ 
+  text-align: center;
+  color: rgb(9,75,67);
+  padding-right: 20px;
+  padding-top: 30px;
+  font-family: 'Ephesis', cursive;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.bodyifaqes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foto2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin: 100px;
+    size: 500px;
+    padding: 50px;
+
+
+      }
+      
+.price {
+     color: grey;
+        font-size: 22px;
+      }
+      
+      .foto2 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(9,75,67);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto2 button:hover {
+        opacity: 0.7;
+      }
+      .foto3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+        padding: 50px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto3 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(9,75,67);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto3 button:hover {
+        opacity: 0.7;
+      }
+      .foto4 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+        padding: 50px;
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto4 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(9,75,67);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto4 button:hover {
+        opacity: 0.7;
+      }
+      .foto5 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+        padding: 50px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto5 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(9,75,67);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto5 button:hover {
+        opacity: 0.7;
+      }
+      .foto6 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+        padding: 50px;
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto6 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(9,75,67);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .foto6 button:hover {
+        opacity: 0.7;
+      }
+      .foto7 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin: 100px;
+        padding: 50px;
+
+
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .foto7 button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: rgb(9,75,67);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+      }
+      
+  .foto7 button:hover {
+    opacity: 0.7;
+    }
+
+  footer{
+    background-color:rgba(9, 75, 67, 0.447);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .footer-col-aboutus {
+      width: 25%;
+      padding: 0 15px;
+      display: inline-flex;
+      
+
+    }
+    .footer-col-contact {
+      width: 25%;
+      padding: 0 15px;
+      display: inline-flex;
+    }  
+      .footer-col-onlineshop {
+      width: 25%;
+      padding: 0 15px;
+      display: inline-flex;
+    } 
+       .footer-col-followus {
+      width: 25%;
+      padding: 0 15px;
+      display: inline-flex;
+    }
+    
+    .footer-col h4 {
+      font-size: 18px;
+      color: black;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: baseline;
+    }
+    
+    .footer-col h4::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      background-color: rgb(16, 65, 64);
+      width: 50px;
+      height: 2px;
+    }
+    
+    .footer-col ul li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    
+    .footer-col ul li a {
+      color: black;
+      display: block;
+      font-size: 1rem;
+      font-weight: 300;
+      text-transform: capitalize;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+      color: black;
+      padding-left: 7px;
+    }
+    
+    .footer-col .social-links a {
+      color: black;
+      background-color:rgb(9,75,67); ;
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      text-align: center;
+      margin: 0 10px 10px 0;
+      line-height: 40px;
+      transition: all 0.5s ease;
+    }
+    
+    .footer-col .social-links a:hover {
+      color: #151515;
+      background-color:black;
+    }
+    
+    @media(max-width: 767px) {
+      .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+      }
+    }
+    
+    @media(max-width: 574px) {
+      .footer-col {
+        width: 100%;
+      }
+    }
+
+
+
 
 
 
