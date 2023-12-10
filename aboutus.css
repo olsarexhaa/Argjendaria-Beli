@@ -141,3 +141,41 @@ a{
     padding-top: 50px;
 
   }
+  footer {
+            background-color: rgba(9, 75, 67, 0.589);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        footer p {
+            margin: 0;
+            pad: 30px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: size 30px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 30px;
+            justify-content: space-evenly;
+        }
+
+        footer .social-icons a:hover {
+            text-decoration: underline;
+        }
