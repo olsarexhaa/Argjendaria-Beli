@@ -1,90 +1,172 @@
-
+<?php
+  require_once '../dbconect.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<html lang="en">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ephesis:wght@400;700&display=swap">
-        <link rel="stylesheet" href="aboutus.css">
-        <script src="main.js"></script>
-        <title>Argjendaria Beli</title>
-        <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
-    </head>
+    <title>Argjendaria Beli Admin</title>
+</head>
+<body>
     <header>
-        <div class="header">       
-        <button
-            class="button1"
-            link
-            rel="stylesheet"
-            href="login.php"
-        >
-            <span>
-              <a href="cart.php">
-                <ion-icon name="cart-outline" class="icon"></ion-icon>
-              </a>
-            </span>
-        </button>
-        <button class="loginform">
-            <a href="login.php">
-                <span class="icon1">
-                    <ion-icon name="person-outline">Log in</ion-icon>
-                </span>
-            </a>
-            <button class="kontakt">
-                <a href="kontakt.php">
-                    <span class="icon1">
-                        <iconify-icon icon="ion:chatbubbles-outline"></iconify-icon>
-                    </span>
-                </a>
-        </button>
-        <h1>Argjendaria Beli</h1>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="shopnow.php">Shop</a></li>
-            <li><a href="earrings.php">Earings</a></li>
-            <li><a href="aboutus.php">About Us</a></li>
-          </ul>
-        </div>
-        <body>
-    <h1 class="quote">"A  Legacy  of  Elegance :  Unveiling  Our  Jewelry  Journey  Since  1994"</h1>
-    <div class="ourstory">
-    <img src="fotot/0.jpg" >
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #sidebar {
+            width: 250px;
+            height: 100%;
+            background-color: rgb(9,75,67);
+            color: rgb(240, 222, 180);
+            padding-top: 20px;
+            position: fixed;
+        }
+
+        #sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #sidebar a:hover {
+            background-color: rgb(240, 222, 180);
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 16px;
+        }
+
+        h2 {
+            color: rgb(9,75,67);
+            text-align: center;
+        }
+        table {
+             width: 100%;
+             border-collapse: collapse;
+             margin-top: 20px;
+            } 
+
+        th, td {
+             border: 1px solid #dddddd;
+             text-align: left;
+             padding: 12px;
+            }
+
+        th {
+            background-color: rgba(9, 75, 67, 0.142);
+            }
+
+        tbody tr:hover {
+             background-color: #f5f5f5;
+            }
+         p{
+            color: whitesmoke;
+            text-align: center;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 90px;
+            padding: 10px;
+        }   
+        .back{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 40px; 
+            margin-left: 70px; 
+        }   
+        a{
+            text-decoration: none;
+            color: black;
+        }  
+        button{
+           justify-content: flex-start;
+           cursor:grab;
+           font-size: 15px;
+           padding:10px 30px;
+           border-radius: 10px;
+           text-decoration: none;
+           background-color:rgba(9, 75, 67, 0.142);
+           align-items: center;
+        }
+        button:hover{
+         background: rgb(228,199,129); 
+        }   
+        img{
+            width: 100px;
+            height: auto;
+        }
+        
+    </style>
+    <tbody>
+</tbody>
+</header>
+<body>
+
+<div id="sidebar">
+        <a href="dashboard.php">Dashboard</a>
+        <a href="users.php">Users</a>
+        <a href="products.php">Products</a>
+        <a href="earings.php">Earings</a>
+        <a href="aboutus.php">About Us</a>
+        <a href="findus.php">Find us</a>
+        <a href="contact.php">Contact</a>
+        <p>Return to your web adventure from the dashboard!</p>
+         <a href="../index.php" class="back">Back to Web</a>
     </div>
-    <p class="ourstoryp">For nearly three decades, we have been dedicated to curating an exquisite collection that transcends trends and celebrates 
-      the everlasting beauty of fine jewelry. Established in 1994,Argjendaria Beli has evolved into a symbol of enduring
-       quality and unmatched service.</p>
-       <div class="quality">
-        <img src="fotot/1.JPG">
-       </div>
-       <p class="qualityp">Quality is the cornerstone of our brand. We source only the finest gemstones and materials to create
-         jewelry that stands the test of time. Each piece undergoes rigorous quality control measures, 
-         ensuring that when you choose Argjendaria Beli, you choose enduring elegance.</p>
-         <div class="vision">
-          <img src="fotot/2.JPG" >
-         </div>
-         <p class="visionp">Our vision extends beyond providing exceptional jewelry; we aim to create lasting relationships with our valued customers.
-           As we look toward the future, our commitment to offering the best service and quality remains unwavering. We invite you to be a part of our legacy,
-            where each piece is a reflection of the enduring beauty that defines Argjendaria Beli.
 
-          Thank you for considering Argjendaria Beli for your jewelry needs. Explore our collection and discover the perfect piece that will become
-           a cherished part of your story.</p>
+    <div id="content">
+    <h2>About Us</h2>
 
-           <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-           <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-           <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-       </body>
-       <footer>
-           <p>&copy; 2023 Argjendaria Beli</p>
-           <div class="words">
-               <a href="aboutus.php">About Us</a>
-               <a href="findus.php">Find Us</a>
-               <a href="#contact">Contact</a>
-           </div>
-           <div class="social-icons">
-               <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-               <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
-               <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-           </div>
-         </footer>            
+    <table class="table">
+    <thead>
+        <tr>
+            <th name="id">ID</th>
+            <th name="image" style="max-width: 300px;">Picture</th>
+            <th name="teksti">Text</th>
+            <th name="operations">Operations</th>
+        </tr>
+    </thead>
+    <tbody>           
+            <?php
+
+            $query = "SELECT * FROM aboutus ";
+            $databaseConnection = new DatabaseConnection();
+            $conn = $databaseConnection->startConnection();
+            $stmt = $conn->prepare($query);
+            $stmt->execute();
+
+            $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+                 foreach ($rows as $row) {
+                 $id = $row['id'];
+                 $image = $row['image'];
+                 $teksti = $row['teksti'];
+           
+                 
+                 echo '<tr>
+                    <td>'.$id.'</td>
+                    <td><img src="data:image/jpeg;base64,'.base64_encode($row['image']).'"/></td>
+                    <td>'.$teksti.'</td>
+                    <td>
+                     <button><a href="edit-au.php?editid='.$id.'">Edit</a></button>
+                     <button><a href="delete-au.php?deleteid='.$id.'">Delete</a></button>
+                    </td>
+                    </tr>';
+                 }
+
+         
+            ?>
+    </tbody>
+</table>
+    </div>
+
+</body>
 </html>
